@@ -1,0 +1,76 @@
+ 
+body{
+    background-color: rgb(168, 169, 236);
+    
+}
+h1{
+    text-align: center;
+    font-size: 63px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    gap: 20px;
+    
+}
+.card{
+    width: 270px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+  height: 400px;
+    background-color: rgb(218, 35, 126);
+ 
+    
+}
+
+
+.image{
+    border-radius: 15px 15px 0px 0px !important; 
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+}
+
+ 
+.color1{
+
+    background-color: rgb(0, 162, 255);
+    height: 240px;
+    border-radius: 15px 15px 0px 0px;
+    opacity: 0.3;
+    
+    }
+    .color2{
+        background-color: rgb(0, 255, 106);
+        height: 240px;
+        border-radius: 15px;
+        opacity: 0.3;
+    }
+    .color3{
+        background-color: rgb(25, 0, 255);
+        height: 240px;
+        border-radius: 15px;
+        opacity: 0.3;
+    
+    }
+ 
+@media screen and (max-width:325px){
+.container{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+  h1{
+    font-size: 30px;
+  }  
+    
+p{
+    margin: 10px;
+    color: white;
+}
+.container{
+ margin-left:15px;
+}
+
+}
