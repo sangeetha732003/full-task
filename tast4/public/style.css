@@ -1,0 +1,139 @@
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgba(131, 209, 131, 0.685);
+}
+.grid-container{
+    grid-template-columns: auto auto auto;
+    gap: none;
+    display: grid;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 0px;
+    margin-left: 400px;
+    border-color: 1px solid black;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 10px;
+
+}
+.item1{
+    opacity: 60px;
+    padding: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.item2{
+    font-size: 7px;
+    margin-top: 8px;
+    padding: 10px;
+}
+.item3{
+    opacity: 60%;
+    padding: 5px;
+    font-size: 10px;
+}
+.item4{
+   color: darkgreen;
+   margin-top: 5px;
+   font-size: 40px;
+   padding: 10px;
+   display: inline-flex;
+    
+    
+}
+.item4>h4{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.item5{
+    background-color: rgb(13, 138, 34);
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    height: 55px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 9px;
+    padding-right: 20px;
+    
+}
+img{
+    border-radius: 5px;
+}
+.grid1{
+    border-radius: 5px;
+    height: 478px;
+    width: 310px;
+    float: left;
+}
+.grid2{
+    padding-left: 10px;
+    background-color: beige;
+    border-radius: 4px;
+    padding-right: 10px;
+    height: 478px;
+    width: 300px;
+}
+
+@media  only screen and(max-width: 400px){
+    .grid-container{
+        width: 100%;
+        grid-template-columns: auto auto;
+        display: block;
+        height: 478px;
+        position: relative;
+        margin-top: 1px;
+        margin-left: 1px;
+    }
+
+img{
+height: 450px;
+width: 310px;
+display: block;
+z-index: 2;
+position: relative;
+}
+.grid-item2{
+    height: 600px; 
+    width: 350px;
+    position: absolute;
+    z-index: 1;
+    padding-top: 300px;
+}
+.item1{
+    font-size: 15px;
+    padding: 10px;
+}
+.item2{
+    font-size:15px;
+    padding: 3px;
+}
+.item4{
+    font-size: 40px;
+    padding: 10px;
+}
+.item3{
+    
+    padding: 10px;
+    font-size: 17px;
+}
+.item5{
+    width:240px ;
+    height: 55px;
+    text-align:center ;
+    padding: 15px;
+    margin-left: 20px;
+}
+}
+
+
