@@ -1,0 +1,106 @@
+body{                                                                
+
+    justify-content: center;
+    background-color: rgb(159, 159, 243);
+    margin-top: 15px;
+    align-items: center;
+    
+}
+.container.item{
+    width:450px;
+    margin-left: 400px;
+    margin-top: 5px;
+    height: 700px;
+    box-shadow: inset;
+    
+    
+}
+img{
+    width: 100px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 100px;
+    top: 0;
+    bottom:0;
+
+}
+h1{
+    color: black;
+    text-align: center;
+    position: relative;
+}
+h3{
+    color: black;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+#menu1>li{
+    display: inline;
+    font-size: 20px;
+    opacity: 0.7;
+    position: relative;
+    margin-left: 10px;
+    
+
+}
+#menu2>li{
+    display: inline;
+    position: relative;
+    font-size:20px ;
+    margin-left: 10px;
+    margin-right: 35px;
+}
+p{
+    text-align: center;
+    opacity: 0.7;
+    font-size: 20px;
+}
+.item1{
+    display: inline;
+    font-size: 30px;
+    color: blue;
+margin-left: 30px;
+}
+.item2{
+    display: inline;
+    font-size: 30px;
+    color: blue;
+    margin-left:30px ;
+}
+.item3{
+    display: inline ;
+    font-size:30px ;
+    color: blue;
+    margin-left:30px ;
+
+}
+.item4{
+    display: inline;
+    font-size: 30px;
+    color: red;
+    margin-left:30px ;
+}
+
+
+button{
+    background-color:rgb(49, 49, 238);
+    color: white;
+    
+    margin-left: 30px;
+    height: 50px;
+    width: 150px;
+    border-radius:20px;
+
+    
+}
+button:hover{
+    background-color: gray;
+    color: black;
+
+
+}
